@@ -19,9 +19,9 @@ class MuslCross < Formula
   depends_on "gnu-sed" => :build
   depends_on "homebrew/dupes/make" => :build
 
-  resource "linux-4.4.10.tar.xz" do
-    url "https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.4.10.tar.xz"
-    sha256 "4ac22e4a619417213cfdab24714413bb9118fbaebe6012c6c89c279cdadef2ce"
+  resource "linux-4.10.9.tar.xz" do
+    url "https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.10.9.tar.xz"
+    sha256 "d048a2c1cf2f41dbc34e8e30d34737825b8d0a0f19631f7dd6142d3621bf0cf9"
   end
 
   resource "mpfr-3.1.4.tar.bz2" do
